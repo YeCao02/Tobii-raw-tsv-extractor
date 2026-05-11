@@ -1,4 +1,4 @@
-table,metric_group,is_identifier,n_columns
+﻿table,metric_group,is_identifier,n_columns
 aoi_metrics_long.csv,aoi_fixation_metric,False,7
 aoi_metrics_long.csv,aoi_glance_metric,False,2
 aoi_metrics_long.csv,aoi_interval_geometry_metric,False,3

@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $Here = Split-Path -Parent $MyInvocation.MyCommand.Path
-$Python = "python"
+$Python = "E:\ANACONDA\envs\geo\python.exe"
 
 Push-Location $Here
 try {

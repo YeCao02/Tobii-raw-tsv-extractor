@@ -5,3 +5,4 @@ dist/
 *.spec
 tobii_tsv_extracted_metrics/
 *.log
+

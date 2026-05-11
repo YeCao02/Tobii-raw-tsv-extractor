@@ -57,6 +57,12 @@ python tobii_tsv_extractor.py `
 python tobii_tsv_extractor.py
 ```
 
+或者：
+
+```powershell
+python tobii_tsv_extractor.py --gui
+```
+
 界面中的 `Baseline media code` 应填写 Tobii 事件/媒体中的 media code，不是图片序号。例如：
 
 - 指导页媒体为 `zhidaoyu.png` 时，填写 `zhidaoyu`。
@@ -159,3 +165,4 @@ dist\TobiiTSVExtractor.exe
 - 本工具不重新检测 fixation/saccade，而是复用 Tobii Pro Lab 原始 TSV 中已有的 eye-movement 分类结果。
 - AOI fixation/visit/glance 指标由 fixation 行和 AOI hit 列重建。Tobii Pro Lab 软件内部对边界 fixation、visit span 的处理可能是闭源实现，因此个别时长字段可能不能逐毫秒复刻软件预计算导出。
 - baseline-based pupil expansion 需要有明确的 baseline media code。若没有实验设计上的 baseline，建议使用绝对瞳孔值或被试内 z-score，而不要把所有正式图片均值称为 baseline。
+
