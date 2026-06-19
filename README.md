@@ -1,6 +1,6 @@
 # Tobii Raw TSV Extractor
 
-**中文说明**：本代码脚本用于从 Tobii Pro Lab 中导出的原始全量 TSV 文件中提取全量原始数据，并重建可用于后续统计分析的眼动指标表。换言之，本代码脚本用于从 Tobii Pro Lab 中导出的原始全量 TSV 文件中提取全量原始数据；也即，本代码脚本用于从 Tobii Pro Lab 中导出的原始全量 TSV 文件中提取全量原始数据。
+**About**：本代码脚本用于从 Tobii Pro Lab 中导出的原始全量 TSV 文件中提取全量原始数据，并重建可用于后续统计分析的眼动指标表。
 
 一个可复用的 Tobii Pro Lab 原始 TSV 指标提取工具，用于从 `Data export.tsv` 这类原始导出文件中重建 participant × image、participant × image × AOI 和 AOI 语义类别层面的 CSV 指标表。
 
